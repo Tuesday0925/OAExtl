@@ -1,0 +1,183 @@
+﻿body {
+    background: #FFF;
+    color: #333;
+    font: 14px/1.6em Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    SCROLLBAR-FACE-COLOR: #87d2de;
+    SCROLLBAR-HIGHLIGHT-COLOR: #000000;
+    SCROLLBAR-SHADOW-COLOR: #000000;
+    SCROLLBAR-3DLIGHT-COLOR: #e6e6e6;
+    SCROLLBAR-ARROW-COLOR: #000000;
+    SCROLLBAR-TRACK-COLOR: #e6e6e6;
+    SCROLLBAR-DARKSHADOW-COLOR: #e6e6e6;
+}
+
+* {
+    font-size:14px;
+}
+a {
+    color: #0287CA;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+}
+
+html {
+    overflow: -moz-scrollbars-vertical;
+}
+/* 在Firefox下始终显示滚动条*/
+
+.but-Green {
+    /*background-image: url(../Images/Dropdown_bg.gif);*/
+    border: 0.5px solid #0e7c21;
+    background-color: #459e00;
+    color: white;
+    text-align: center;
+    }
+
+.but-Red {
+    /*background-image: url(../Images/Dropdown_bg.gif);*/
+    border: 0.5px solid #c34e18;
+    background-color: #c34e18;
+    color: white;
+    text-align: center;
+  
+}
+
+.width60 {
+    width: 60px;
+}
+
+.width70 {
+    width: 70px;
+}
+
+.width80 {
+    width: 80px;
+}
+
+.width100 {
+    width: 100px;
+
+}
+
+.border-Green {
+    border: solid 1px #939393;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.TextBox {
+    vertical-align: middle;
+}
+
+.span {
+    background-color: #459e00;
+    border: 1px solid #327e04;
+    display: -moz-inline-box;
+    display: inline-block;
+    width: 60px;
+    color: white;
+    vertical-align: middle;
+}
+
+.border_Green {
+    border: 1px solid #459e00;
+    padding: 1px 1px 1px 1px;
+}
+
+
+.mGridEx {
+background-color: #FFF;
+margin: 5px 0 10px 0;
+border: solid 1px #000000;
+border-collapse: collapse;
+}
+
+    .mGridEx td {
+        border: solid 1px #000000;
+        color: #000000;
+        text-overflow: ellipsis;
+        overflow:visible;
+        white-space: nowrap;
+        word-break: keep-all;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+
+
+
+svg {
+    border: none;
+}
+
+circle, path {
+    fill: transparent;
+    stroke: orange;
+    stroke-width: 10px;
+    stroke-linecap: round;
+}
+
+circle {
+    stroke: rgba(255, 150, 0, 0.5);
+}
+
+#wait {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+
+#ui-datepicker-div {
+    z-index: 2500 !important;
+}
+
+.table_title {
+    border-collapse: collapse;
+}
+.table_title td {
+    border: 1px solid #808080;
+}
+
+
+/*其它*/
+.s1 {
+    background-color: #ffe9a6;
+}
+
+.margintop10 {
+    margin-top: 5px;
+}
+
+
+/*底部页面导航文本框*/
+.ui-pg-input {
+    color: black;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
