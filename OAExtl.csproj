@@ -393,6 +393,7 @@
     <Content Include="Scripts2\i18n\grid.locale-tw.js" />
     <Content Include="Scripts2\i18n\grid.locale-ua.js" />
     <Content Include="Scripts2\i18n\grid.locale-vi.js" />
+    <Content Include="vvvOnly.css" />
     <Content Include="zoomify\zoomify.css" />
     <Content Include="zoomify\zoomify.js" />
     <Content Include="zoomify\zoomify.min.css" />
