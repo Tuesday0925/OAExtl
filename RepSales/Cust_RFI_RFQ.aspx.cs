@@ -54,7 +54,7 @@ namespace OAExtl.RepSales
                 ddlcpx.DataSource = db.GetDataSet(DBServer.fw, "SELECT  0 id,'请选择产品线' name UNION SELECT id,name FROM dbo.uf_zdyxzk WHERE sslx='cpxlb'").Tables[0];
                 ddlcpx.DataValueField = "name";
                 ddlcpx.DataTextField = "name";
-                ddlcpx.DataBind();     
+                ddlcpx.DataBind();
 
             }
         }
